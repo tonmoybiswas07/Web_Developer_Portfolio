@@ -177,4 +177,46 @@ margin-bottom: 130px;
 .what-i-do-card h4{
     margin: 10px auto;
 }
+/* summary of my resume styel */
+.summary-of-my-resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.education h2,.experience h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.education-card h4,.experience-card h4{
+font-size: 25px;
+font-weight: 700;
+padding-top: 20px;
+}
+.education-card h5,.experience-card h5{
+    font-size: 18px;
+    color: gray;
+    margin: 10px auto;
+}
+.education-card p,.experience-card p{
+    color: gray;
+    margin-bottom: 20px;
+    
+}
+hr{
+    border: 1px solid gray;
+}
+.resume-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.resume-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 100px auto;
+    text-align: center;
+}
 
