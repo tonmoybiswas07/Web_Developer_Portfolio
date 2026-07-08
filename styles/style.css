@@ -118,3 +118,29 @@
     left: 0;
     top:50px ;
 }
+.about-me{
+    margin: 130px auto;
+    text-align: center;
+    padding: 130px 150px;
+    border-radius: 10px;
+    
+}
+.about-me h2{
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.about-me p{
+    color: gray;
+    margin-bottom: 30px;
+}
+.about-me-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.about-me-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
