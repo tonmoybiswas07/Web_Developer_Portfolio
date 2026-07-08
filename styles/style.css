@@ -1,0 +1,62 @@
+/* css style here */
+/* google fonts import link here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+/* universal style */
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* shared button */
+.button {
+  padding: 10px 25px;
+  color: white;
+  font-weight: bold;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* header style start */
+.header {
+  background-color: #fff8f3;
+}
+.logo h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.logo h2 span {
+  color: #fd6e0a;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+.nav-right ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+}
+
